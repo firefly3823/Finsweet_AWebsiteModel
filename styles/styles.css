@@ -1,0 +1,201 @@
+@import url("nav.css");
+@import url("footer.css");
+html {
+    scroll-behavior: smooth;
+}
+#Home {
+    height: 100vh;
+    width: 100%;
+    font-family: Roboto;
+    background-image: url("../images/BG_Image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.main-heading {
+    width: 40rem;
+    height: auto;
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+}
+
+.main-heading h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFF;
+    font-family: Roboto;
+    padding-bottom: 3rem;
+}
+
+.home-btn {
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+    font-weight: 700;
+    padding: 16px 32px;
+    border-radius: 10px;
+}
+
+.home-btn-extra-style {
+    background-color: #FFF;
+    color: black;
+}
+
+.home-play-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-play-btn img {
+    padding-right: 10px;
+}
+
+.home-bottom-text {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 4rem;
+    color: #FFF;
+}
+
+.home-bottom-text>h5 {
+    display: inline;
+    padding: 0px 3rem 0px 3rem;
+    font-size: 18px;
+}
+
+.line {
+    display: inline-block;
+    width: 861px;
+    height: 1px;
+    background-color: #FFF;
+    align-self: center;
+}
+
+/* 2nd section starting here */
+#about-us {
+    height: 100vh;
+    width: inherit;
+    margin: 8rem 8rem;
+    position: relative;
+}
+
+.about-text {
+    width: 50%;
+}
+
+.about-image {
+    width: 30rem;
+    height: 35rem;
+    background-image: url("/images/image_backgound_Second_section.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.about-image img {
+    width: 64px;
+}
+
+.line-and-know {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.line-about {
+    width: 64px;
+    height: 3px;
+    background-color: #000;
+}
+
+.know-text {
+    padding-left: 2rem;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.about-text h2 {
+    font-size: 48px;
+    padding: 32px 90px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.about-text>p {
+    padding: 0px 32px 32px 90px;
+    color: var(--Secondary-text, #525560);
+    font-size: 16px;
+    line-height: 160%;
+}
+.button-learn {
+    padding-left: 6rem;
+}
+.button-learn a{
+    text-decoration: none;
+    padding: 16px 32px;
+    background: var(--Green-primary, #70C174);
+    border-radius: 4px;
+    font-weight: 700;
+    color: #FFF;
+}
+.bottom-section{
+    width: 100%;
+    position: absolute;
+    bottom: 8rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bottom-section-text{
+    padding-right: 2rem;
+}
+.about-bottom-line{
+    width: 80%;
+    height: 1px;
+    background-color: #000;
+    align-self: center;
+}
+.icon-container{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#what-we-do{
+    height: 100vh;
+    background-color: rgb(239, 247, 242);
+    width: inherit;
+}
+.whatWeDo-sub{
+    position: relative;
+    height: 100%;
+    box-sizing: border-box;
+    margin-inline: 4rem 4rem; 
+    padding: 4rem 0rem 4rem 0rem;
+}
+.whatWeDo-image{
+        width: 30rem;
+        height: 35rem;
+        background-image: url("/images/whatWedo-image.png");
+        background-size: cover;
+        background-position: center;
+        border-radius: 12px;
+        position: absolute;
+        top: 10vh;
+        right: 0rem;
+}

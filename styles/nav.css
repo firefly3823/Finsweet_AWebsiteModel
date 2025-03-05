@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5rem 10px 8rem;
+    align-items: center;
+    
+}
+.nav-items{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    padding: 1rem;
+}
+.nav-items a{
+    text-decoration: none;
+    font-weight: 1000;
+    color: black;
+}
+.donate-btn a{
+    background-color: #000;
+    padding: 12px 32px;
+    border-radius: 4px;
+    color: #fff;
+    letter-spacing: .5px;
+}

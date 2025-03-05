@@ -1,0 +1,61 @@
+@import url("nav.css");
+footer{
+    height: 402px;
+    background-color: #000;
+    padding: 0px 2rem 0 2rem;
+}
+.grid-logo{grid-area:grid-logo;}
+.gird-item1{grid-area: grid-item1;}
+.gird-item2{grid-area: grid-item2;}
+.gird-item3{grid-area: grid-item3;}
+.gird-item-sub{grid-area: grid-item-sub;}
+.grid-container{
+    display: grid;
+    height: inherit;
+    grid-template-areas: 
+    'grid-logo grid-item1 grid-item2 grid-item2 grid-item-sub';
+}
+.grid-container>div{
+    margin-top: 4rem;
+}
+.footer-ul li{
+    padding: 15px 20px;
+}
+.footer-content{
+    text-decoration: none;
+    color: #fff;
+}
+.head-item{
+    font-weight: bolder;
+}
+.suscribe{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+.mail-address{
+    width: 30rem;
+    height: 55px;
+    flex-shrink: 0;
+    background-color: #000000;
+    color: #fff;
+    padding-left: 10px;
+    border-radius: 4px;
+    border: 1px solid rgba(235, 240, 249, 0.30);
+    
+}
+::placeholder{
+    color: rgba(235, 240, 249, 0.30);
+    font-size: 16px;
+    padding: 10px;
+}
+.sub-btn{
+    color: #000000;
+    background-color: white;
+    text-decoration: none;
+    font-weight: 800;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 18px 20px;
+}
